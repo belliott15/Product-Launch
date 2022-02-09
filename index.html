@@ -5,19 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="global.css" />
 </head>
 <body>
-    <img src="./Snake.jpg" alt="snake"/>
-    <section>
-        <h1>Power Movements</h1>
+    <img id="snake-image" src="./Snake.jpg" alt="snake"/>
+    <section id="info">
+        <h1 id="main"><b>Power Movements</b></h1>
         <p>Build strength and flexibility for your mind and body.</p>
-        <h1>If you're <b>ready</b> enter your email below</h1>
+        <h3>If you're <b>ready</b> enter your email below</h3>
     </section>
-    
+    <form>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <button>Let's Go!</button>
+    </form>
 </body>
-<form>
-    <label for="email">Email</label>
-    <input type="email" name="email" id="email">
-    <button>Let's Go!</button>
-</form>
 </html>

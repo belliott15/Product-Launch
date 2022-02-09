@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Arimo&display=swap');
+* {
+/* CSS HEX */
+--davys-grey: #615b5cff;
+--timberwolf: #e8ded7ff;
+--old-burgundy: #412923ff;
+--pale-silver: #d1c2b9ff;
+--rich-black-fogra-39: #0b0908ff;
+}
+body {
+    background-color: var(--old-burgundy);
+}
+#snake-image {
+    width: 100vw;
+}
+
+#info { 
+    color: rgba(202, 65, 11, 0.719);
+    font-family: Abel;
+    font-weight: 600;
+    font-size: x-large;
+    
+
+}
+#main {
+    font-weight: 900;
+}
