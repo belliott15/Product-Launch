@@ -19,5 +19,11 @@
 
 ## Egyptian Cat with a crazy face
 ### More of a dog person
-
+1. Australian sheppard 
+   - Cutest of all the breeds in my opinion
+2. All other dogs
+   - all dogs are sweet and deserve our love and care.
+ 
+ # What we need to do to make our lives better 
+ 
 
