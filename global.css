@@ -1,27 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Arimo&display=swap');
 * {
-/* CSS HEX */
---davys-grey: #615b5cff;
---timberwolf: #e8ded7ff;
---old-burgundy: #412923ff;
---pale-silver: #d1c2b9ff;
---rich-black-fogra-39: #0b0908ff;
+--smoky-black: #1D0A05ff;
+--sinopia: #CE4A1Eff;
+--light-slate-gray: #82909Fff;
+--rufous: #9B2E0Fff;
+--blood-red: #571404ff;
+--barn-red: #77220Dff;
 }
-body {
-    background-color: var(--old-burgundy);
+
+#body {
+    background-color: var(--light-slate-gray);
 }
-#snake-image {
+#rock-image {
     width: 100vw;
 }
 
 #info { 
-    color: rgba(202, 65, 11, 0.719);
-    font-family: Abel;
+    color: rgba(160, 56, 22, 0.774);
+    font-family: Abel, sans-serif;
     font-weight: 600;
     font-size: x-large;
-    
-
+    background-color: var(--light-slate-gray);
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 #main {
     font-weight: 900;
+    
+}
+
+#email {
+    background: rgb(230, 217, 217);
+    width: 100%;
+    height: 30px;
+    max-width: 450px;
+    margin-bottom: 20px;
+    padding: 10px, 20px;
+    font-size: 25px;
+    color:rgba(168, 87, 21, 0.774)
+}
+#form {
+    font-family: Abel;
+    font-size: 25px;
+    width: 100%;
+    text-align: left;
+    padding-left: 100px;
+    background-color: var(--rufous);
+}
+
+#button {
+    color: rgb(58, 29, 25);
+    background: rgba(168, 87, 21, 0.774);
+    font-family: Abel;
+    font-size: 1.5rem;
+    width: 100%;
+    border:rgba(160, 56, 22, 0.774);
+    margin-left: 60px;
+    max-width: 200px;
+    
+    
+    
+}
+#button:hover {
+    background-color: #CE4A1Eff;
 }
