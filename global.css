@@ -10,6 +10,10 @@
 
 #body {
     background-color: var(--light-slate-gray);
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
 }
 #rock-image {
     width: 100vw;
@@ -40,6 +44,7 @@
     width: 100%;
     height: 30px;
     max-width: 450px;
+    margin-top: 20px;
     margin-bottom: 20px;
     padding: 10px, 20px;
     font-size: 25px;
@@ -61,12 +66,12 @@
     font-size: 1.5rem;
     width: 100%;
     border:rgba(160, 56, 22, 0.774);
-    margin-left: 60px;
+    margin-bottom: 60px;
     max-width: 200px;
-    
-    
-    
 }
+
 #button:hover {
     background-color: #CE4A1Eff;
 }
+
+
