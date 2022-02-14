@@ -13,8 +13,8 @@
     margin: 0;
     padding: 0;
     border: 0;
-    vertical-align: baseline;
 }
+
 #rock-image {
     width: 100vw;
 }
@@ -25,14 +25,13 @@
     font-weight: 600;
     font-size: x-large;
     background-color: var(--light-slate-gray);
-    display: block;
+
     
 }
-}
+
 #main {
     font-weight: 900;
-    color: black;
-    
+    color: black;    
 }
 
 #description {
@@ -66,7 +65,6 @@
     font-size: 1.5rem;
     width: 100%;
     border:rgba(160, 56, 22, 0.774);
-    margin-bottom: 60px;
     max-width: 200px;
 }
 
