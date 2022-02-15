@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Arimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&display=swap');
 * {
 --smoky-black: #1D0A05ff;
 --sinopia: #CE4A1Eff;
@@ -15,8 +16,13 @@
     border: 0;
 }
 
+*{
+    box-sizing: border-box;
+}
 #rock-image {
     width: 100vw;
+    height: 100%;   
+    display: inline-flex;
 }
 
 #info { 
@@ -25,47 +31,57 @@
     font-weight: 600;
     font-size: x-large;
     background-color: var(--light-slate-gray);
-
-    
 }
 
 #main {
     font-weight: 900;
-    color: black;    
+    color: rgba(160, 56, 22, 0.774); 
+    text-align: center;
+    font-family: Bebas Neue; 
+    letter-spacing: 0.3rem;  
+    font-size: 3rem;
 }
 
 #description {
     color: black;
+    padding-left: 15vw;
+    padding-right: 15vw;
 }
 
 #email {
     background: rgb(230, 217, 217);
     width: 100%;
-    height: 30px;
+    height: 35px;
     max-width: 450px;
+    min-width: 450px;
     margin-top: 20px;
     margin-bottom: 20px;
-    padding: 10px, 20px;
-    font-size: 25px;
-    color:rgba(168, 87, 21, 0.774)
+    padding: 20px;
+    font-size: 20px;
+    color:rgba(168, 87, 21, 0.774);
 }
 #form {
-    font-family: Abel;
+    font-family: bebas Neue;
     font-size: 25px;
     width: 100%;
     text-align: left;
-    padding-left: 100px;
     background-color: var(--rufous);
+    letter-spacing: 0.1rem;
+    font-weight: thin;
+    justify-content: center;
+    padding: 2rem 10rem;
 }
+
 
 #button {
     color: rgb(58, 29, 25);
     background: rgba(168, 87, 21, 0.774);
     font-family: Abel;
-    font-size: 1.5rem;
-    width: 100%;
-    border:rgba(160, 56, 22, 0.774);
-    max-width: 200px;
+    font-size: 2rem;
+    width: 450px;
+    max-width: 450px;
+    border: 0;
+    padding: 15px 20px;
 }
 
 #button:hover {
